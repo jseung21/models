@@ -1,0 +1,26 @@
+<annotation>
+	<folder>original image</folder>
+	<filename>001.jpg</filename>
+	<path>D:\project\2018\Auto Scheme Builder\Dataset\v0.3\original image\001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>894</width>
+		<height>602</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>22</ymin>
+			<xmax>648</xmax>
+			<ymax>381</ymax>
+		</bndbox>
+	</object>
+</annotation>
