@@ -1,0 +1,119 @@
+NFO:tensorflow:global step 99996: loss = 0.0036 (0.187 sec/step)
+INFO:tensorflow:global step 99996: loss = 0.0036 (0.187 sec/step)
+INFO:tensorflow:global step 99997: loss = 0.0628 (0.160 sec/step)
+INFO:tensorflow:global step 99997: loss = 0.0628 (0.160 sec/step)
+INFO:tensorflow:global step 99998: loss = 0.0321 (0.173 sec/step)
+INFO:tensorflow:global step 99998: loss = 0.0321 (0.173 sec/step)
+INFO:tensorflow:global step 99999: loss = 0.0089 (0.178 sec/step)
+INFO:tensorflow:global step 99999: loss = 0.0089 (0.178 sec/step)
+INFO:tensorflow:global step 100000: loss = 0.0106 (0.167 sec/step)
+INFO:tensorflow:global step 100000: loss = 0.0106 (0.167 sec/step)
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Stopping Training.
+INFO:tensorflow:Finished training! Saving model to disk.
+INFO:tensorflow:Finished training! Saving model to disk.
+[INFO|asb_main.py:41] 2018-09-19 14:43:24,964 > Transfer learning Success [ Total learning time : 4 Hour 36 Minute 32 Second ]
+[INFO|asb_main.py:64] 2018-09-19 14:43:24,964 > Evaluate model start [ Step number : 100000 ]
+/home/sdsra/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+/home/sdsra/Documents/ObjectDetection/models/research/object_detection/utils/visualization_utils.py:25: UserWarning: 
+This call to matplotlib.use() has no effect because the backend has already
+been chosen; matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
+The backend was *originally* set to 'Qt5Agg' by the following code:
+  File "./asb_eval.py", line 50, in <module>
+    from object_detection import asb_evaluator
+  File "/home/sdsra/Documents/ObjectDetection/models/research/object_detection/asb_evaluator.py", line 24, in <module>
+    from object_detection import eval_util
+  File "/home/sdsra/Documents/ObjectDetection/models/research/object_detection/eval_util.py", line 28, in <module>
+    from object_detection.metrics import coco_evaluation
+  File "/home/sdsra/Documents/ObjectDetection/models/research/object_detection/metrics/coco_evaluation.py", line 20, in <module>
+    from object_detection.metrics import coco_tools
+  File "/home/sdsra/Documents/ObjectDetection/models/research/object_detection/metrics/coco_tools.py", line 47, in <module>
+    from pycocotools import coco
+  File "/home/sdsra/anaconda3/lib/python3.6/site-packages/pycocotools/coco.py", line 49, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/sdsra/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 71, in <module>
+    from matplotlib.backends import pylab_setup
+  File "/home/sdsra/anaconda3/lib/python3.6/site-packages/matplotlib/backends/__init__.py", line 16, in <module>
+    line for line in traceback.format_stack()
+
+
+  import matplotlib; matplotlib.use('Agg')  # pylint: disable=multiple-statements
+INFO:tensorflow:Scale of 0 disables regularizer.
+INFO:tensorflow:Scale of 0 disables regularizer.
+INFO:tensorflow:Scale of 0 disables regularizer.
+INFO:tensorflow:depth of additional conv before box predictor: 0
+INFO:tensorflow:Scale of 0 disables regularizer.
+WARNING:tensorflow:From /home/sdsra/Documents/ObjectDetection/models/research/object_detection/predictors/heads/box_head.py:92: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+INFO:tensorflow:Scale of 0 disables regularizer.
+INFO:tensorflow:Scale of 0 disables regularizer.
+WARNING:tensorflow:From /home/sdsra/Documents/ObjectDetection/models/research/object_detection/core/losses.py:317: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+2018-09-19 14:43:30.692870: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-09-19 14:43:30.788962: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-09-19 14:43:30.789488: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:01:00.0
+totalMemory: 10.92GiB freeMemory: 10.37GiB
+2018-09-19 14:43:30.789501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-19 14:43:30.976912: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-19 14:43:30.976940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-19 14:43:30.976945: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-19 14:43:30.977095: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10031 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from ./asb_train_dir/faster_rcnn_resnet50_coco_2018_01_28/model.ckpt-100000
+INFO:tensorflow:Restoring parameters from ./asb_train_dir/faster_rcnn_resnet50_coco_2018_01_28/model.ckpt-100000
+WARNING:root:image 0 does not have groundtruth difficult flag specified
+[INFO|asb_main.py:76] 2018-09-19 14:43:55,828 > Evaluate model Success
+[INFO|asb_main.py:45] 2018-09-19 14:43:55,828 > Export model start
+/home/sdsra/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From /home/sdsra/Documents/ObjectDetection/models/research/object_detection/predictors/heads/box_head.py:92: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/sdsra/Documents/ObjectDetection/models/research/object_detection/exporter.py:280: get_or_create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.get_or_create_global_step
+WARNING:tensorflow:From /home/sdsra/Documents/ObjectDetection/models/research/object_detection/exporter.py:434: print_model_analysis (from tensorflow.contrib.tfprof.model_analyzer) is deprecated and will be removed after 2018-01-01.
+Instructions for updating:
+Use `tf.profiler.profile(graph, run_meta, op_log, cmd, options)`. Build `options` with `tf.profiler.ProfileOptionBuilder`. See README.md for details
+211 ops no flops stats due to incomplete shapes.
+Incomplete shape.
+Incomplete shape.
+211 ops no flops stats due to incomplete shapes.
+Incomplete shape.
+Incomplete shape.
+2018-09-19 14:44:01.975991: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-09-19 14:44:02.059498: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:897] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-09-19 14:44:02.060022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:01:00.0
+totalMemory: 10.92GiB freeMemory: 10.38GiB
+2018-09-19 14:44:02.060034: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-19 14:44:02.238920: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-19 14:44:02.238951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-19 14:44:02.238957: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-19 14:44:02.239106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10032 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2018-09-19 14:44:03.365773: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-19 14:44:03.365806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-19 14:44:03.365811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-19 14:44:03.365815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-19 14:44:03.365904: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10032 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2018-09-19 14:44:04.092827: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2018-09-19 14:44:04.092864: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-09-19 14:44:04.092871: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2018-09-19 14:44:04.092877: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2018-09-19 14:44:04.092981: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10032 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+[INFO|asb_main.py:60] 2018-09-19 14:44:05,336 > Export model Success
+[INFO|asb_main.py:119] 2018-09-19 14:44:05,336 > Program end [ Total time : 4 Hour 37 Minute 12 Second ]
+[INFO|asb_main.py:120] 2018-09-19 14:44:05,336 > 
+
